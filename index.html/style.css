@@ -1,0 +1,416 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+        margin : 0;
+        font-family : "Roboto", sans-serif;
+    }
+
+    .to-upporcase {
+        text-transform : uppercase;
+     }
+     .cantener {
+         width : 80%;
+         margin : 0 auto;
+     }
+    /*navigatsiya*/
+    .navigatsiya {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        -webkit-box-pack : justify;
+            -ms-flex-pack : justify;
+                justify-content : space-between;
+        width : 1200px;
+        height : 81px;
+        left : 0;
+        top : 27px;
+        margin-top : 35px;
+        margin-bottom : 20px;
+    }
+    .navigatsiya a {
+        text-decoration : none;
+    }
+    .navigatsiya__main {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        -webkit-box-pack : justify;
+            -ms-flex-pack : justify;
+                justify-content : space-between;
+    }
+    .navigatsiya__main-link {
+        margin-top : 20px;
+        margin-left : -800px;
+    }
+    .navigatsiya__main-link a {
+        font-weight : 400;
+        font-size : 20px;
+        line-height : 23px;
+        color : #000000;
+        padding-right : 15px;
+    }
+    #activ {
+       color : #0082F4;
+    }
+    .main_navigetion__button {
+        width : 193px;
+        height : 63px;
+        background : #0082F4;
+        border-radius : 10px;
+    }
+
+    hr{
+        width: 1600px;
+        opacity: 0.1;
+        border: 1px solid #0283F5;
+        height: 0px;
+    }
+    /*smart biznes*/
+    .smart {
+        position : relative;
+        margin-top : 100px;
+    }
+    .smart-business {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        width : 1152px;
+        height : 500px;
+        left : 224px;
+        top : 208px;
+    }
+    .smart-business__subtitle {
+        font-style : normal;
+        font-size : 29px;
+        line-height : 0;
+        letter-spacing : 0.1em;
+        text-transform : uppercase;
+        color : #0080FD;
+    }
+    .smart-business__title {
+        font-weight : 700;
+        font-size : 60.55px;
+        line-height : 130%;
+        color : #000000;
+    }
+    .smart-business__title span {
+       color : #0082F4;
+    }
+    .smart-business__info {
+        font-weight : 400;
+        font-size : 16px;
+        line-height : 150%;
+        color : #000000;
+        opacity : 0.6;
+    }
+    .navigetion__main-button {
+        width : 194px;
+        height : 63px;
+        background : #0082F4;
+        border-radius : 10px;
+    }
+    .smart-business__text {
+      width : 486px;
+    }
+    .smart-business__text a {
+        font-weight : 500;
+        font-size : 16px;
+        line-height : 19px;
+        color : #000000;
+        margin-left : 100px;
+    }
+    .smart-business__image {
+        width : 486px;
+        height : 486px;
+        margin-left : 150px;
+    }
+    /*about us*/
+    .about-us {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        margin-top : 100px;
+    }
+    .about-us__text {
+        width : 503px;
+        height : 359px;
+        margin-left : 150px;
+    }
+    .about-us__image {
+        width : 486px;
+        height : 486px;
+    }
+    .about-us__subtitle {
+        width : 136px;
+        height : 29px;
+        font-weight : 500;
+        font-size : 25px;
+        line-height : 29px;
+        letter-spacing : 0.1em;
+        text-transform : uppercase;
+        color : #0082F4;
+    }
+    .about-us__title {
+        width : 496px;
+        height : 122px;
+        font-weight : 700;
+        font-size : 49px;
+        line-height : 130%;
+        color : #000000;
+    }
+    .about-us__info {
+        width : 503px;
+        height : 90px;
+        font-weight : 400;
+        font-size : 20px;
+        line-height : 150%;
+        color : #000000;
+        opacity : 0.6;
+    }
+    /*we work*/
+    .we-work__cards {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+    }
+    .we-work__name {
+        font-size : 48.44px;
+        line-height : 150%;
+        text-align : center;
+        color : #000000;
+    }
+    .we-work__card {
+        width : 345px;
+        height : 356px;
+        margin-left : 100px;
+    }
+    .srart::before {
+        content : "";
+        height : 150px;
+        width : 150px;
+        display : block;
+        background-repeat : no-repeat;
+        background-image : url(../images/1.svg);
+    }
+    .go::before {
+        content : "";
+        height : 150px;
+        width : 150px;
+        display : block;
+        background-repeat : no-repeat;
+        background-image : url(../images/2.svg);
+    }
+    .final::before {
+    content : "";
+        height : 150px;
+        width : 150px;
+        display : block;
+        background-repeat : no-repeat;
+        background-image : url(../images/3.svg);
+    }
+    .we-work {
+        width : 1164px;
+        height : 489px;
+        margin-top : 150px;
+    }
+    .we-work__card-title {
+        font-weight : 500;
+        font-size : 28px;
+        line-height : 130%;
+        color : #000000;
+    }
+    .we-work__info {
+        font-weight : 400;
+        font-size : 20px;
+        line-height : 150%;
+        text-align : center;
+        color : #000000;
+        opacity : 0.7;
+    }
+
+    /*klientlarni fikri*/
+    .client {
+       margin-top : 60px;
+    }
+    .client__cards {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+    }
+    .client__card {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+    }
+    .client__card-foto {
+        margin-left : -35px;
+        z-index : 2;
+    }
+    .client__card__info {
+        font-weight : 400;
+        font-size : 20px;
+        line-height : 150%;
+        color : #000000;
+        opacity : 0.7;
+    }
+    .client__title {
+        display : inline;
+        font-size : 48px;
+        font-weight : bold;
+    }
+    .client__title p::after {
+        content : "";
+        height : 50px;
+        width : 150px;
+        display : inline-block;
+        background-repeat : no-repeat;
+        background-image : url(../images/cta.svg);
+        position : absolute;
+        margin-left : 200px;
+    }
+    .client__card-text {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        -webkit-box-orient : vertical;
+        -webkit-box-direction : normal;
+            -ms-flex-direction : column;
+                flex-direction : column;
+        width : 500px;
+        margin-top : 20px;
+        margin-left : 25px;
+    }
+    .blur-line {
+        display : inline-block;
+        position : relative;
+        top : -2px;
+        margin-right : 5px;
+        width : 40px;
+        height : 4px;
+        background-color : rgb(8, 1, 6, 0.6);
+        border-radius : 4px;
+    }
+    .client__card-name {
+       margin-top : 70px;
+    }
+
+    /*email olish uchun*/
+    .contact-cantener{
+        width: 1200px;
+        background: rgba(232, 236, 255, 0.3);
+    }
+    
+    
+    .contact {
+        width : auto;
+        height : 338px;
+        left : 0;
+        margin-top : 250px;
+    }
+    .contact__name-subtitle {
+        font-weight : 300;
+        font-size : 31.25px;
+        line-height : 37px;
+        text-align : center;
+        color : #058AFF;
+    }
+    .contact__name-title {
+        font-weight : 500;
+        font-size : 20px;
+        line-height : 23px;
+        text-align : center;
+        color : #000000;
+        opacity : 0.7;
+    }
+    .contact__name {
+        margin-left : -400px;
+        width : 1925px;
+        height : 90px;
+    }
+    .contact__forms {
+        -webkit-box-sizing : border-box;
+                box-sizing : border-box;
+        width : 610px;
+        margin : 0 auto;
+        border : #ddd solid 1px;
+        text-align : center;
+        margin-top : 40px;
+        border-radius : 10px;
+        margin-left : 280px;
+        height : 80px;
+    }
+    .contact__button {
+        -webkit-box-sizing : border-box;
+                box-sizing : border-box;
+        background : #0082F4;
+        border-radius : 10px;
+        width : 102px;
+        height : 52px;
+        margin-right : -150px;
+    }
+    form {
+        margin-top : 14px;
+        margin-right : 150px;
+    }
+    .email {
+        border : none;
+        margin-left : 0;
+        margin-right : 225px;
+    }
+    .psevdo::before {
+        content : "";
+        height : 30px;
+        width : 35px;
+        vertical-align : middle;
+        display : inline-block;
+        background-repeat : no-repeat;
+        background-image : url(../images/mail.svg);
+    }
+
+    /*footer*/
+    .footer {
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        width : 100%;
+        height : 250px;
+        line-height : 20px;
+    }
+    .box {
+       width : 250px;
+    }
+
+    /*the end*/
+    .end {
+        background : -webkit-gradient(linear, left top, left bottom, from(#058AFF), color-stop(97.91%, rgb(57, 55, 206, 0.87)));
+        background : -o-linear-gradient(top, #058AFF 0%, rgb(57, 55, 206, 0.87) 97.91%);
+        background : linear-gradient(180deg, #058AFF 0%, rgb(57, 55, 206, 0.87) 97.91%);
+        height : 80px;
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        -webkit-box-pack : justify;
+            -ms-flex-pack : justify;
+                justify-content : space-between;
+        width : 1200px;
+    }
+    .end__text {
+        margin-top : 25px;
+        margin-left : 100px;
+    }
+    .end__send {
+        margin-top : 25px;
+        margin-right : 100px;
+    }
+    .end__button {
+        width : 131px;
+        height : 52px;
+        background : #FFFFFF;
+        border-radius : 10px;
+        margin-top : -50px;
+    }
